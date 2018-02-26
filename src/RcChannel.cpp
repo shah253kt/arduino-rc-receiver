@@ -45,7 +45,7 @@ short RcChannel::readRaw() {
 }
 
 short RcChannel::readPercentage() {
-	short reading = readRaw();
+	short reading = constrain(readRaw(), minVal, maxVal);
 
 	if (reading < midVal - tolerance) {
 		return map(reading, minVal, midVal - tolerance, -100, 0);
