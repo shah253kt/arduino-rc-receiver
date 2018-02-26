@@ -16,6 +16,13 @@ calibrate	KEYWORD2
 readRaw	KEYWORD2
 readPercentage	KEYWORD2
 setTolerance	KEYWORD2
+setMinVal	KEYWORD2
+setMidVal	KEYWORD2
+setMaxVal	KEYWORD2
+getTolerance	KEYWORD2
+getMinVal	KEYWORD2
+getMidVal	KEYWORD2
+getMaxVal	KEYWORD2
 
 ##########################################
 # Instances (KEYWORD2)
