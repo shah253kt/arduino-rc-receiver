@@ -59,9 +59,9 @@ ch.getTolerance();
 Min, Mid and Max values refers to the duration that the signal goes HIGH. Usually, for PPM signal, the value is around 1000 to 2000 microseconds. Some controllers may defer. That is the purpose of these functions.
 ```cpp
 //Setter
-ch.setMinVal(100);
-ch.setMidVal(100);
-ch.setMaxVal(100);
+ch.setMinVal(950);
+ch.setMidVal(1550);
+ch.setMaxVal(2000);
 
 //Getter
 ch.getMinVal();
